@@ -27,5 +27,6 @@ A predictive model to identify customers who are at risk of attrition in order t
 # Findings
 **Feature Importances**
   
-![image](https://github.com/KevKibe/Credit-Card-Users-Churn-Prediction/assets/86055894/da5167e1-e274-4179-9b73-bafaedc92868)
+![image](https://github.com/KevKibe/Credit-Card-Users-Churn-Prediction/assets/86055894/12baad8f-a4dc-47b8-b432-5031dd28bef5)
 
+# Causes of Attrition
