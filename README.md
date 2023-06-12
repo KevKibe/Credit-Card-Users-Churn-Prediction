@@ -24,16 +24,8 @@ A predictive model to identify customers who are at risk of attrition in order t
 <li>Total_Ct_Chng_Q4_Q1 - Change in Transaction Count (Q4 over Q1)
 <li>Avg_Utilization_Ratio - Average Card Utilization Ratio
 
+# Findings
+**Feature Importances**
+  
+![image](https://github.com/KevKibe/Credit-Card-Users-Churn-Prediction/assets/86055894/da5167e1-e274-4179-9b73-bafaedc92868)
 
-What is a Revolving Balance?<br>
-If we don't pay the balance of the revolving credit account in full every month, the unpaid portion carries over to the next month. That's called a revolving balance.<br>
-
-What is the Average Open to buy?<br>
-'Open to Buy' means the amount left on your credit card to use. Now, this column represents the average of this value for the last 12 months.<br>
-
-What is the Average utilization Ratio?<br>
-The Avg_Utilization_Ratio represents how much of the available credit the customer spent. This is useful for calculating credit scores.<br>
-
-Relation b/w Avg_Open_To_Buy, Credit_Limit and Avg_Utilization_Ratio:<br>
-
-( Avg_Open_To_Buy / Credit_Limit ) + Avg_Utilization_Ratio = 1<br>
