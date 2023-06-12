@@ -1,7 +1,8 @@
 # Problem Description
-A credit card company wants to find out why some of their customers end up opting out of their service. The dataset provided has customer data and whether
+A credit card company wants to find out why some of their customers end up opting out of their service. This can be solved by fitting a model that best categorized a customer as an existing customer or not and then plotting the feature importances to see what factors drive attrition. The [solution notebook](
 
 # Data Description
+The dataset provided has customer data and whether they are existing customers or they opted out(attrited customer).
 
 # Findings
 **Feature Importances**
