@@ -1,32 +1,25 @@
-# Credit-Card-Users-Churn-Prediction
-A predictive model to identify customers who are at risk of attrition in order to find the key causes that drive attrition. This can help banks  take appropriate actions to build better retention policies for customers.
+# Problem Description
+A credit card company wants to find out why some of their customers end up opting out of their service. The dataset provided has customer data and whether
 
 # Data Description
-<li>CLIENTNUM - Client number. Unique identifier for the customer holding the account
-<li>Attrition_Flag - Internal event (customer activity) variable - if the account is closed then "Attrited Customer" else "Existing Customer"
-<li>Customer_Age - Age in Years
-<li>Gender - Gender of the account holder
-<li>Dependent_count - Number of dependents
-<li>Education_Level - Educational Qualification of the account holder - Graduate, High School, Unknown, Uneducated, <li>College(refers to college student), Post-Graduate, Doctorate
-<li>Marital_Status - Marital Status of the account holder
-<li>Income_Category - Annual Income Category of the account holder
-<li>Card_Category - Type of Card
-<li>Months_on_book - Period of relationship with the bank (in months)
-<li>Total_Relationship_Count - Total no. of products held by the customer
-<li>Months_Inactive_12_mon - No. of months inactive in the last 12 months
-<li>Contacts_Count_12_mon - No. of Contacts in the last 12 months
-<li>Credit_Limit - Credit Limit on the Credit Card
-<li>Total_Revolving_Bal - Total Revolving Balance on the Credit Card
-<li>Avg_Open_To_Buy - Open to Buy Credit Line (Average of last 12 months)
-<li>Total_Amt_Chng_Q4_Q1 - Change in Transaction Amount (Q4 over Q1)
-<li>Total_Trans_Amt - Total Transaction Amount (Last 12 months)
-<li>Total_Trans_Ct - Total Transaction Count (Last 12 months)
-<li>Total_Ct_Chng_Q4_Q1 - Change in Transaction Count (Q4 over Q1)
-<li>Avg_Utilization_Ratio - Average Card Utilization Ratio
 
 # Findings
 **Feature Importances**
   
 ![image](https://github.com/KevKibe/Credit-Card-Users-Churn-Prediction/assets/86055894/12baad8f-a4dc-47b8-b432-5031dd28bef5)
 
-# Causes of Attrition
+# Factors that drive attrition are :
+
+- **Total_Trans_Ct:** Less number of transactions in a year leads to attrition of a customer - to increase the usage of cards the bank can provide offers like cashback, special discounts on the purchase of something, etc so that customers feel motivated to use their cards.
+  
+- **Total_Revolving_Bal:** Customers with less total revolving balance are the ones who attrited, such customers must have cleared their dues and opted out of the credit card service. After the customer has cleared the dues bank can ask for feedback on their experience and get to the cause of attrition.
+  
+- **Total_Trans_Amt:** Less number of transactions can lead to less transaction amount and eventually leads to customer attrition Bank can provide offers on the purchase of costlier items which in turn will benefit the customers and bank both.
+  
+- **Total_Relationship_Count:** Attrition is highest among the customers who are using 1 or 2 products offered by the bank together they constitute ~55% of the attrition - Bank should investigate here to find the problems customers are facing with these products. Customer support, or more transparency can help in retaining customers.
+  
+- Female customers should be the target customers for any kind of marketing campaign as they are the ones who utilize their credits, make more and higher amount transactions. But their credit limit is less, so increasing the credit limit for such customers can profit the bank.
+  
+- **Months_Inactive:** As inactivity increases the attrition also increases. 2-4 months of inactivity are the biggest contributors of attrition - Bank can send automated messages to engage customers, these messages can be about their monthly activity, new offers or services, etc.
+  
+- Highest attrition is among the customers who interacted/reached out the most with/to the bank, this indicates that the bank is not able to resolve the problems faced by customers leading to attrition - a feedback collection system can be set up to check if the customers are satisfied with the resolution provided, if not, the bank should act upon it accordingly.
